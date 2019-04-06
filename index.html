@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+
+<!--
+  This is a simple example / template impress.js slide show. The goal is to be
+  easier to read for a first timer than the official and very feature rich
+  demo by bartaz (http://bartaz.github.io/impress.js/). It's also a very
+  traditional presentation that looks like slides (square screens with bullet
+  points...), again to make a first timer feel more at home. From this simple
+  presentation you can then go on to more powerful impress.js presentations!
+  
+  This example is hopefully helpful for people that want to create both
+  simple and (eventually) awesome presentations in impress.js and comfortable
+  doing that directly in HTML.
+  
+  By: @henrikingo (Still based on the HTML from bartaz' demo.)  
+    
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Σ Creativity| by Team-Mattecentrum</title>
+    <meta name="description" content="Explore impress.js in 3D" />
+    <meta name="author" content="Henrik Ingo" />
+    <link href="css/3D-rotations.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+
+  <body class="impress-not-supported">
+    <div class="fallback-message">
+      <p>
+        Your browser <b>doesn't support the features required</b> by impress.js,
+        so you are presented with a simplified version of this presentation.
+      </p>
+      <p>
+        For the best experience please use the latest <b>Chrome</b>,
+        <b>Safari</b> or <b>Firefox</b> browser.
+      </p>
+    </div>
+
+    <div id="impress" data-transition-duration="2000">
+      <div
+        id="overview"
+        class="step overview"
+        data-x="1350"
+        data-y="100"
+        data-z="100"
+        data-scale="3"
+        data-rotate-y="90"
+      >
+        <h1 style="width: 100%; padding-top: 30%">
+          Σ<span font-size="30px">CREATIVITY</span>
+        </h1>
+      </div>
+      <div
+        id="overview2"
+        class="step overview"
+        data-x="2018"
+        data-y="106"
+        data-z="3018"
+        data-scale="2"
+      >
+        <p style="justify-content: center">
+          A solution to bridge the gap in the educational ecosystem, by
+          lervarging the power of data and creativeness.
+        </p>
+
+        <p style="justify-content: center; margin-top:60px">
+          A tool for generating relevant data that can be used for analysis and
+          better measures of improvement.
+        </p>
+      </div>
+
+      <div
+        id="step-1"
+        class="step"
+        data-x="0"
+        data-y="0"
+        data-z="0"
+        data-goto-prev="step-8"
+      >
+        <p>Challenge</p>
+        <p style="font-size: 50px">Eduction and Science</p>
+        <p style="font-size: 30px">
+          How do we offer better support for citizens concering career and
+          educational choice?
+        </p>
+      </div>
+
+      <div
+        id="step-2"
+        class="step"
+        data-x="420"
+        data-y="-70"
+        data-z="-250"
+        data-rotate-z="45"
+        data-rotate-y="-45"
+        data-rotate-order="zyx"
+      >
+        <p>Solution</p>
+        <p>At Individual Level</p>
+        <p>App Based Solution</p>
+        <p></p>
+      </div>
+
+      <div
+        id="step-3"
+        class="step"
+        data-x="700"
+        data-y="350"
+        data-z="-350"
+        data-rotate-z="90"
+        data-rotate-y="-90"
+        data-rotate-order="zyx"
+      >
+        <p>Solution</p>
+        <p>At Individual Level</p>
+        <p>Society level impacts and implementations</p>
+      </div>
+
+      <div
+        id="step-4"
+        class="step"
+        data-x="422"
+        data-y="780"
+        data-z="-250"
+        data-rotate-z="135"
+        data-rotate-y="-135"
+        data-rotate-order="zyx"
+      >
+        <p>demo</p>
+      </div>
+
+      <div
+        id="step-5"
+        class="step"
+        data-x="0"
+        data-y="702"
+        data-z="0"
+        data-rotate-z="180"
+        data-rotate-y="-180"
+        data-rotate-order="zyx"
+      >
+        <p>Impact</p>
+      </div>
+
+      <div
+        id="step-6"
+        class="step"
+        data-x="379"
+        data-y="780"
+        data-z="270"
+        data-rotate-z="135"
+        data-rotate-y="-225"
+        data-rotate-order="zyx"
+      >
+        <p>Data Sources</p>
+      </div>
+
+      <div
+        id="step-7"
+        class="step"
+        data-x="700"
+        data-y="350"
+        data-z="350"
+        data-rotate-z="90"
+        data-rotate-y="-270"
+        data-rotate-order="zyx"
+      >
+        <p>Tech</p>
+      </div>
+
+      <div
+        id="step-8"
+        class="step"
+        data-x="379"
+        data-y="-70"
+        data-z="270"
+        data-rotate-z="45"
+        data-rotate-y="-315"
+        data-rotate-order="zyx"
+        data-goto-next="step-1"
+      >
+        <p>Team</p>
+        <div style="display:flex">
+          <div
+            style="display:flex; align-items: center; flex-direction: column"
+          >
+            <img
+              style="width: 150px;
+            height: 150px;
+            border-radius: 75px;"
+              src="./assets/images/dhruv.png"
+              alt=""
+            />
+            <p style="font-size: 20px">Dhruv Shah</p>
+          </div>
+
+          <div
+            style="display:flex; align-items: center; flex-direction: column"
+          >
+            <img
+              style="width: 150px;
+            height: 150px;
+            border-radius: 75px;"
+              src="./assets/images/karolina.png"
+              alt=""
+            />
+            <p style="font-size: 20px">Karolina</p>
+          </div>
+          <div
+            style="display:flex; align-items: center; flex-direction: column"
+          >
+            <img
+              style="width: 150px;
+            height: 150px;
+            border-radius: 75px;"
+              src="./assets/images/kejsa.png"
+              alt=""
+            />
+            <p style="font-size: 20px">Kejsa</p>
+          </div>
+          <div
+            style="display:flex; align-items: center; flex-direction: column"
+          >
+            <img
+              style="width: 150px;
+            height: 150px;
+            border-radius: 75px;"
+              src="./assets/images/rebecka.png"
+              alt=""
+            />
+            <p style="font-size: 20px">Rebecka</p>
+          </div>
+          <div
+            style="display:flex; align-items: center; flex-direction: column"
+          >
+            <img
+              style="width: 150px;
+            height: 150px;
+            border-radius: 75px;"
+              src="./assets/images/sideeg.png"
+              alt=""
+            />
+            <p style="font-size: 20px">Sideeg</p>
+          </div>
+          <div
+            style="display:flex; align-items: center; flex-direction: column"
+          >
+            <img
+              style="width: 150px;
+            height: 150px;
+            border-radius: 75px;"
+              src="./assets/images/ulf.png"
+              alt=""
+            />
+            <p style="font-size: 20px">Ulf Swediin</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="impress-toolbar"></div>
+    <div id="impress-help"></div>
+
+    <script type="text/javascript" src="../../js/impress.js"></script>
+    <script>
+      impress().init();
+    </script>
+  </body>
+</html>

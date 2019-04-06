@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Lato-Medium";
+    src: url("../assets/Lato/Lato-Medium.ttf");
+}
+
+body {
+    font-family: "Lato-Medium";
+}
+
+p,
+h1,
+h2,
+h3 {
+    font-family: "Lato-Medium";
+}
